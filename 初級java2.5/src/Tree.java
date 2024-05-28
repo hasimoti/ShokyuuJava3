@@ -10,8 +10,10 @@ public class Tree {
 	}
 	public void draw(MyFrame frame) 
 	{
-		frame.fillOval(x,y,50,50);
-		frame.fillRect(x+20,y+20,10,100);
+		frame.fillOval(x+10,y+25,20,20);
+		frame.fillOval(x+50,y+25,20,20);
+		frame.fillRect(x,y,80,30);
+		frame.fillRect(x+15,y-20,50,30);
 	}
 	
 	public void move()
